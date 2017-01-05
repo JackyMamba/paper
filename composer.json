@@ -1,0 +1,25 @@
+{
+  "name": "qingyu/paper",
+  "type": "library",
+  "description": "enroll,survey,exam paper component",
+  "keywords": ["enroll","survey","exam"],
+  "homepage": "https://github.com/JackyMamba/paper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jacky Jiang",
+      "email": "jqyjacky@gmail.com",
+      "homepage": "https://qingyu.me",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "illuminate/database": "5.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Qingyu\\Paper\\": ""
+    }
+  }
+}
